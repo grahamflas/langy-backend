@@ -1,4 +1,131 @@
 language_id,deck_id,word_english,word_target_language,pronunciation
-5,1,Hello,سلام,
-5,1,How are you?,حال شما ‌چطور است؟,
-5,1,Goodbye,خدا حافض,
+5,1,Hello,سلام,salām
+5,1,Goodbye,خدا حافظ,khodā hāfez
+5,1,How are you?,حالتون چطوره؟,hāletun chetoreh?
+5,1,What is your name?,اسم شما چیست؟,esm-e shomā chist?
+5,1,My name is…,اسم من … است,esm-e man … ast
+5,1,Please,لطفا,lotfan
+5,1,Thank you,مرسی,mersi
+5,1,Yes,بله,bale
+5,1,No,نه,nah
+5,1,Do you speak English?,شما انگلیسی صحبت می کنید؟,shomā ingelisi sohbat mi-konid?
+5,1,How much is this?,قیمتش چنده؟,qeymatesh chande?
+5,1,Congratulations,مبارك باشد,mobārak bāshad
+5,1,Excuse me,ببخشید,bebakhshid
+5,1,Sorry,متاسفم,mota’asefam
+5,1,Cheers!,سلامتی,salāmati
+5,2,one,یک,yek
+5,2,two,دو,do
+5,2,three,سه,seh
+5,2,four,چهار,chahār
+5,2,five,پنج,panj
+5,2,six,شش,shesh
+5,2,seven,هفت,haft
+5,2,eight,هشت,hasht
+5,2,nine,نه,noh
+5,2,ten,ده,dah
+5,2,eleven,یازده,yāzdah
+5,2,twelve,دوازده,davāzdah
+5,2,thirteen,سیزده,sizdah
+5,2,fourteen,چهارده,chahārdah
+5,2,fifteen,پانزده,poonzdah
+5,2,sixteen,شانزده,shoonzdah
+5,2,seventeen,هفده,hifdah
+5,2,eighteen,هجده,hijdah
+5,2,nineteen,نوزده,noozdah
+5,2,twenty,بیست,bist
+5,3,red,قرمز,qermez
+5,3,orange,نارنجی,nāranji
+5,3,yellow,زرد,zard
+5,3,green,سبز,sabz
+5,3,blue,آبی,ābi
+5,3,purple,بنفش,banafsh
+5,3,black,سیاه,siyāh
+5,3,white,سفید,sefid
+5,3,brown,قهوه ای,qaveh-i
+5,3,grey,خاکستری,khākestari
+5,3,pink,صورتی,surati
+5,4,Monday,دوشنبه,doh shanbeh
+5,4,Tuesday,سه شنبه,seh shanbeh
+5,4,Wednesday,چهارشنبه,chahār shanbeh
+5,4,Thursday,پنج شنبه,panj shanbeh
+5,4,Friday,جمعه,jom’e
+5,4,Saturday,شنبه,shanbeh
+5,4,Sunday,یک شنبه,yek shanbeh
+5,5,January,ژانویه,zhānvieh
+5,5,February,فوریه,fevrieh
+5,5,March,مارس,mārs
+5,5,April,آوریل,āvril
+5,5,May,مه,meh
+5,5,June,ژوئن,zhu-in
+5,5,July,ژوئیه,zhu-i-yeh
+5,5,August,اوت,ut
+5,5,September,سپتامبر,septāmbr
+5,5,October,اکتبر,oktowbr
+5,5,November,نوامبر,novāmbr
+5,5,December,دسامبر,desāmbr
+5,6,father,پدر,pedar
+5,6,mother,مادر,mādar
+5,6,grandmother,مادر بزرگ,mādar-e bozorg
+5,6,grandfather,پدر بزرگ,Pedar-e bozorg
+5,6,son,پسر,pesar
+5,6,daughter,دختر,dokhtar
+5,6,family,خانواده,khānevādeh
+5,6,parents,والدین,vāledin
+5,6,husband,شوهر,shohar
+5,6,wife,زن,zan
+5,6,sister,خواهر,khāhar
+5,6,brother,برادر,barādar
+5,7,spring,بهار,bahār
+5,7,summer,تابستان,tābestān
+5,7,fall,پاییز,pāyeez
+5,7,winter,زمستان,zemestān
+5,7,rain,باران,bārān
+5,7,snow,برف,barf
+5,7,wind,باد,bād
+5,7,fog,مه,meh
+5,7,storm,طوفان,toofān
+5,7,warm,گرم,garm
+5,7,cold,سرد,sard
+5,7,humid,مرطوب,martoob
+5,7,sunny,آفتابی,āftābi
+5,7,cloudy,ابری,abri
+5,8,hat,کلاه,kohlah
+5,8,shirt,پیراهن,pirāhan
+5,8,blouse,بلوز,behlooz
+5,8,t-shirt,تی شرت,tee-shert
+5,8,suit,کت و شلوار,kot-o-shalvār
+5,8,tie,کراوات,kerāvāt
+5,8,dress,لباس,lebās
+5,8,skirt,دامن,dāman
+5,8,pants,شلوار,shalvār
+5,8,socks,جوراب,jurāb
+5,8,shoes,کفش,kafsh
+5,8,belt,کمربند,kamarband
+5,8,jacket,ژاکت,zhāket
+5,8,coat,بادگیر,bādgeer
+5,8,scarf,‫دستمال گردن,dastmāl gardan
+5,9,airplane,هواپیما,havāpeymā
+5,9,bicycle,دوچرخه,dohcharkheh
+5,9,boat,قایق,qāyeq
+5,9,bus,اتوبوس,otoboos
+5,9,car,ماشین,māsheen
+5,9,motorcycle,موتورسیکلت,motorsiklet
+5,9,ship,کشتی,kashti
+5,9,subway,مترو,metro
+5,9,taxi,تاکسی,tāksi
+5,9,train,قطار,qatār
+5,10,airport,فرودگاه,foroodgā
+5,10,train station,ایستگاه,eestgā
+5,10,apartment,اپارتمان,apārtemān
+5,10,house,خانه,khāne
+5,10,hospital,بیمارستان,beemārestān
+5,10,gas station,پمپ بنزین ,pomp-e benzin
+5,10,grocery store,مغازه,maghāzeh
+5,10,library,کتابخانه,ketābkhāneh
+5,10,movie theater,سینما,sinemā
+5,10,museum,موزه,muzeh
+5,10,restaurant,رستوران,restoorān
+5,10,school,مدرسه,madreseh
+5,10,coffee shop,قهوه خانه,qaveh khāneh
+5,10,bank,بانک,bānk

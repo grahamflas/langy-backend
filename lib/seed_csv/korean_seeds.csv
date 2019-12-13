@@ -1,2 +1,137 @@
 language_id,deck_id,word_english,word_target_language,pronunciation
-4,1,hello,안녕하세요,annyeonhaseyo
+4,1,Hello,안녕하세요,an-nyeong-ha-se-yo
+4,1,Goodbye (you are leaving),안녕히 계세요 ,an-nyeong-hi gye-se-yo
+4,1,Goodbye (you are staying),안녕히 가세요,an-nyeong-hi ga-se-yo
+4,1,How are you?,어떻게 지내세요?,eo-tteoh-ke ji-nae-se-yo?
+4,1,What is your name?,이름은 무엇입니까?,i-reum-eun mu-eosip-ni-kka?
+4,1,My name is…,제 이름은 ... 입니다 ,je i-reum-eun ... im-ni-da
+4,1,Please,부탁합니다,bu-tak-ham-ni-da
+4,1,Thank you,감사합니다,Kam-sa-ham-nida
+4,1,Yes,네,ne
+4,1,No,아니요,ah-ni-yo
+4,1,Do you speak English?,영국말 하실 줄 아세요?,yeong-guk-mal ha-sil jul ah-se-yo?
+4,1,How much is this?,이게 얼마예요?,i-ge eol-ma-ye-yo?
+4,1,Congratulations,치하!,chi-ha!
+4,1,Excuse me,실례합니다,sil-lye-ham-ni-da
+4,1,Sorry,미안합니다!,mi-an-ham-ni-da
+4,1,Cheers!,건배,geon-bae
+4,1,Popeye’s Spicy Chicken Sandwich,퍼파이스 스파이시 치켄 샌드위치,Peo-pai-seu Seu-pai-shi Chi-ken Saen-deu-wi-chi
+4,2,one,일,il
+4,2,two,이,i
+4,2,three,삼,sam
+4,2,four,사,sa
+4,2,five,오,o
+4,2,six,육,yook
+4,2,seven,칠,cheel
+4,2,eight,팔,pal
+4,2,nine,구,goo
+4,2,ten,십,shib
+4,2,eleven,십일,shib-il
+4,2,twelve,십이,shib-i
+4,2,thirteen,십삼,shib-sam
+4,2,fourteen,십사,shib-sa
+4,2,fifteen,십오,shib-o
+4,2,sixteen,십육,shib-yook
+4,2,seventeen,십칠,shib-cheel
+4,2,eighteen,십팔,shib-pal
+4,2,nineteen,십구,shib-goo
+4,2,twenty,이십,i-shib
+4,3,red,빨간색,bbal-gan-saek
+4,3,orange,주황색,ju-hwang-saek
+4,3,yellow,노란색,no-ran-saek
+4,3,green,초록색,cho-rok-saek
+4,3,blue,파란색,pa-ran-saek
+4,3,purple,보라색,bo-ra-saek
+4,3,black,검정색,geom-jeong-saek
+4,3,white,흰색,heuin-saek
+4,3,brown,갈색,gal-saek
+4,3,grey,회색,hoe-saek
+4,3,pink,분홍색,bun-hong-saek
+4,4,Monday,월요일,Wur-yo-il
+4,4,Tuesday,화요일,Hwa-yo-il
+4,4,Wednesday,수요일,Soo-yo-il
+4,4,Thursday,목요일,Mog-yo-il
+4,4,Friday,금요일,Geum-yo-il
+4,4,Saturday,토요일,To-yo-il
+4,4,Sunday,일요일,Ee-ryo-il
+4,5,January,일월,il-wol
+4,5,February,이월,i-wol
+4,5,March,삼월,sam-wol
+4,5,April,사월,sa-wol
+4,5,May,오월,o-wol
+4,5,June,유월,yook-wol
+4,5,July,칠월,cheel-wol
+4,5,August,팔월,pal-wol
+4,5,September,구월,goo-wol
+4,5,October,십월,shib-wol
+4,5,November,십일월,shib-il-wol
+4,5,December,십이월,shib-i-wol
+4,6,father,아버지,ah-beo-ji
+4,6,mother,어머니,eo-meo-ni
+4,6,grandmother,할머니,har-meo-ni
+4,6,grandfather,할아버지,har-ah-beo-ji
+4,6,son,아들,ah-deul
+4,6,daughter,딸,ttal
+4,6,family,가족,ga-jok
+4,6,parents,부모님,bu-mo-nim
+4,6,husband,남편,nam-pyeon
+4,6,wife,부인,bu-in
+4,6,older sister (if you are female),언니,eon-ni
+4,6,older sister (if you are male),누나,nu-na
+4,6,older brother (if you are female),오빠,o-ppa
+4,6,older brother (if you are male),형,hyeong
+4,7,spring,봄,bom
+4,7,summer,여름,yeo-reum
+4,7,fall,가을,ka-eul
+4,7,winter,겨울,kyeo-ul
+4,7,rain,비,bi
+4,7,snow,눈,nun
+4,7,wind,바람,ba-ram
+4,7,fog,안개,an-gae
+4,7,storm,폭풍,pok-poong
+4,7,warm,따듯해요,tta-deut-hae-yo
+4,7,cold,추워요,chu-wu-yo
+4,7,cool,시원한,shi-won-han
+4,7,humid,습해요.,seup-hae-yo
+4,7,sunny,해나요,hae-na-yo
+4,7,cloudy,흐려요,heu-ryeo-yo
+4,8,hat,모자,mo-ja
+4,8,shirt,셔츠,syeo-cheu
+4,8,blouse,블라우스,beul-la-oo-seu
+4,8,t-shirt,티셔츠,ti-syeo-cheu
+4,8,suit,양복,yang-bok
+4,8,tie,넥타이,neg-tai
+4,8,dress,원피스,won-pi-seu
+4,8,skirt,치마,chi-ma
+4,8,pants,면바지,myeon-ba-ji
+4,8,socks,양말,yang-mal
+4,8,shoes,구두,gu-du
+4,8,belt,혁대,hyeok-dae
+4,8,jacket,상의,sang-eui
+4,8,coat,코트,ko-teu
+4,8,scarf,목도리,mok-do-ri
+4,9,airplane,비행기,bi-haeng-gi
+4,9,bicycle,자전거,ja-jeon-geo
+4,9,boat,보트,bo-teu
+4,9,bus,버스,beo-seu
+4,9,car,자동차,ja-dong-cha
+4,9,motorcycle,오토바이,oh-toh-bai
+4,9,ship,배,bae
+4,9,subway,지하철,ji-ha-cheol
+4,9,taxi,택시,taek-shi
+4,9,train,기차,gi-cha
+4,10,airport,공항,gong-hang
+4,10,train station,기차역,gi-cha-yeok
+4,10,apartment,아파트,ah-pa-teu
+4,10,house,단독주택,dan-dok-ju-taek
+4,10,hospital,병원,byeong-won
+4,10,gas station,주유소,ju-yu-so
+4,10,grocery store,시장,si-jang
+4,10,library,도서관,do-seo-gwan
+4,10,movie theater,영화관,yeong-hwa-gwan
+4,10,museum,박물관,bak-mul-gwan
+4,10,restaurant,식당,sik-dang
+4,10,school,학교,hak-gyo
+4,10,coffee shop,커피 샵,ko-pi syap
+4,10,bank,은행,eun-haeng
+4,10,bus stop,버스정류소,beo-seu-jeong-ryu-so

@@ -8,7 +8,7 @@ require 'csv'
 User.destroy_all
 # Word.destroy_all
 
-##### _______________ LANGUAGES _______________
+##### _______________ LANGUAGES _____________________________________________
 uk_english = Language.find_or_create_by(name: "British English", language_code: "")
 french = Language.find_or_create_by(name: "French", language_code: "")
 german = Language.find_or_create_by(name: "German", language_code: "")
@@ -17,8 +17,7 @@ persian = Language.find_or_create_by(name: "Persian", language_code: "")
 spanish = Language.find_or_create_by(name: "Spanish", language_code: "")
 
 
-
-##### _______________ DECKS _______________
+##### _______________ DECKS _____________________________________________
 deck_01 = Deck.find_or_create_by(category: "Greetings & Phrases")
 deck_02 = Deck.find_or_create_by(category: "Numbers")
 deck_03 = Deck.find_or_create_by(category: "Colors")
@@ -32,7 +31,7 @@ deck_10 = Deck.find_or_create_by(category: "Places in a City")
 
 
 
-##### _______________ LANGUAGE DECKS _______________
+##### _______________ LANGUAGE DECKS _____________________________________________
 LanguageDeck.find_or_create_by(language: uk_english, deck: deck_01)
 LanguageDeck.find_or_create_by(language: uk_english, deck: deck_02)
 LanguageDeck.find_or_create_by(language: uk_english, deck: deck_03)
@@ -99,18 +98,20 @@ LanguageDeck.find_or_create_by(language: spanish, deck: deck_08)
 LanguageDeck.find_or_create_by(language: spanish, deck: deck_09)
 LanguageDeck.find_or_create_by(language: spanish, deck: deck_10)
 
-##### _______________ USER _______________
+
+##### _______________ USER _____________________________________________
 test_user = User.find_or_create_by(username: "user", password: "password")
 
 
 
-
-##### _______________ USERLANGUAGE _______________
+##### _______________ USERLANGUAGE _____________________________________________
 UserLanguage.find_or_create_by(user: test_user, language: german)
 UserLanguage.find_or_create_by(user: test_user, language: persian)
 
-##### _______________ WORDS _______________
-###German Seeds
+
+##### _______________ WORDS _____________________________________________
+
+  ###German Seeds
 CSV.foreach(Rails.root.join('lib/seed_csv/german_seeds.csv'), headers: true, encoding:'utf-8') do |row|
   Word.create( {
     language_id: row[0], 
@@ -121,6 +122,7 @@ CSV.foreach(Rails.root.join('lib/seed_csv/german_seeds.csv'), headers: true, enc
   } )
 end
 
+  ###Korean Seeds
 CSV.foreach(Rails.root.join('lib/seed_csv/korean_seeds.csv'), headers: true, encoding:'utf-8') do |row|
   Word.create( {
     language_id: row[0], 
@@ -131,6 +133,7 @@ CSV.foreach(Rails.root.join('lib/seed_csv/korean_seeds.csv'), headers: true, enc
   } )
 end
 
+  ###Persian Seeds
 CSV.foreach(Rails.root.join('lib/seed_csv/persian_seeds.csv'), headers: true, encoding:'utf-8') do |row|
   Word.create( {
     language_id: row[0], 
@@ -138,5 +141,11 @@ CSV.foreach(Rails.root.join('lib/seed_csv/persian_seeds.csv'), headers: true, en
     word_english: row[2], 
     word_target_language: row[3],
     pronunciation: row[4]
-  } )
+  } ) 
 end
+
+##### _______________ USER_WORDS _____________________________________________
+
+UserWord.create(user: test_user, word_id: 1, mastered: true)
+UserWord.create(user: test_user, word_id: 2, mastered: true)
+UserWord.create(user: test_user, word_id: 3, mastered: true)
