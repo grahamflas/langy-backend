@@ -9,12 +9,12 @@ User.destroy_all
 # Word.destroy_all
 
 ##### _______________ LANGUAGES _____________________________________________
-uk_english = Language.find_or_create_by(name: "British English", language_code: "")
-french = Language.find_or_create_by(name: "French", language_code: "")
-german = Language.find_or_create_by(name: "German", language_code: "")
-korean = Language.find_or_create_by(name: "Korean", language_code: "")
-persian = Language.find_or_create_by(name: "Persian", language_code: "")
-spanish = Language.find_or_create_by(name: "Spanish", language_code: "")
+uk_english = Language.find_or_create_by(name: "British English", language_code: "", slug: "uk_english")
+french = Language.find_or_create_by(name: "French", language_code: "", slug: "french")
+german = Language.find_or_create_by(name: "German", language_code: "", slug: "german")
+korean = Language.find_or_create_by(name: "Korean", language_code: "", slug: "korean")
+persian = Language.find_or_create_by(name: "Persian", language_code: "", slug: "persian")
+spanish = Language.find_or_create_by(name: "Spanish", language_code: "", slug: "spanish")
 
 
 ##### _______________ DECKS _____________________________________________
