@@ -6,5 +6,5 @@ class Language < ApplicationRecord
   has_many :decks, through: :language_decks
 
   has_many :words
-  # has_many :decks, through: :words
+  has_many :decks, through: :words
 end
