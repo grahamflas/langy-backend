@@ -7,4 +7,10 @@ class UsersController < ApplicationController
     end
 
   end
+
+  def getWords
+    
+  end
+
+
 end
