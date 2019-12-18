@@ -18,16 +18,16 @@ spanish = Language.find_or_create_by(name: "Spanish", language_code: "", slug: "
 
 
 ##### _______________ DECKS _____________________________________________
-deck_01 = Deck.find_or_create_by(category: "Greetings & Phrases")
-deck_02 = Deck.find_or_create_by(category: "Numbers")
-deck_03 = Deck.find_or_create_by(category: "Colors")
-deck_04 = Deck.find_or_create_by(category: "Days of the Week")
-deck_05 = Deck.find_or_create_by(category: "Months")
-deck_06 = Deck.find_or_create_by(category: "Family Members")
-deck_07 = Deck.find_or_create_by(category: "Weather & Seasons")
-deck_08 = Deck.find_or_create_by(category: "Clothing")
-deck_09 = Deck.find_or_create_by(category: "Transportation")
-deck_10 = Deck.find_or_create_by(category: "Places in a City")
+deck_01 = Deck.find_or_create_by(category: "Greetings & Phrases", slug: "greetings_and_phrases")
+deck_02 = Deck.find_or_create_by(category: "Numbers", slug: "numbers")
+deck_03 = Deck.find_or_create_by(category: "Colors", slug: "colors")
+deck_04 = Deck.find_or_create_by(category: "Days of the Week", slug: "days_of_the_week")
+deck_05 = Deck.find_or_create_by(category: "Months", slug: "months")
+deck_06 = Deck.find_or_create_by(category: "Family Members", slug: "family_members")
+deck_07 = Deck.find_or_create_by(category: "Weather & Seasons", slug: "weather_and_seasons")
+deck_08 = Deck.find_or_create_by(category: "Clothing", slug: "clothing")
+deck_09 = Deck.find_or_create_by(category: "Transportation", slug: "transportation")
+deck_10 = Deck.find_or_create_by(category: "Places in a City", slug: "places_in_a_city")
 
 
 
@@ -97,8 +97,8 @@ test_user = User.find_or_create_by(username: "user", password: "password")
 
 
 ##### _______________ USERLANGUAGE _____________________________________________
-UserLanguage.find_or_create_by(user: test_user, language: german)
-UserLanguage.find_or_create_by(user: test_user, language: persian)
+# UserLanguage.find_or_create_by(user: test_user, language: german)
+# UserLanguage.find_or_create_by(user: test_user, language: persian)
 
 
 ##### _______________ WORDS _____________________________________________
