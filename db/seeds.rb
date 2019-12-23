@@ -29,11 +29,16 @@ deck_08 = Deck.find_or_create_by(category: "Clothing", slug: "clothing")
 deck_09 = Deck.find_or_create_by(category: "Transportation", slug: "transportation")
 deck_10 = Deck.find_or_create_by(category: "Places in a City", slug: "places_in_a_city")
 
+deck_11 = Deck.find_or_create_by(category: "British-isms 1", slug: "british-isms_1")
+deck_12 = Deck.find_or_create_by(category: "British-isms 2", slug: "british-isms_2")
+deck_13 = Deck.find_or_create_by(category: "British-isms 3", slug: "british-isms_3")
+
 
 
 ##### _______________ LANGUAGE DECKS _____________________________________________
-LanguageDeck.find_or_create_by(language: uk_english, deck: deck_01)
-LanguageDeck.find_or_create_by(language: uk_english, deck: deck_02)
+LanguageDeck.find_or_create_by(language: uk_english, deck: deck_11)
+LanguageDeck.find_or_create_by(language: uk_english, deck: deck_12)
+LanguageDeck.find_or_create_by(language: uk_english, deck: deck_13)
 
 LanguageDeck.find_or_create_by(language: french, deck: deck_01)
 LanguageDeck.find_or_create_by(language: french, deck: deck_02)

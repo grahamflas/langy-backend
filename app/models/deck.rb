@@ -3,5 +3,5 @@ class Deck < ApplicationRecord
   has_many :languages, through: :language_decks
 
   has_many :words
-  has_many :languages, through: :words 
+  # has_many :languages, through: :words 
 end
