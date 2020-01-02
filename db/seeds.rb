@@ -108,6 +108,28 @@ test_user = User.find_or_create_by(username: "user", password: "password")
 
 ##### _______________ WORDS _____________________________________________
 
+  ###British English Seeds
+CSV.foreach(Rails.root.join('lib/seed_csv/british_english_seeds.csv'), headers: true, encoding:'utf-8') do |row|
+  Word.create( {
+    language_id: row[0], 
+    deck_id: row[1],
+    word_english: row[2], 
+    word_target_language: row[3],
+    pronunciation: row[4]
+  } )
+end
+
+  ###French Seeds
+CSV.foreach(Rails.root.join('lib/seed_csv/french_seeds.csv'), headers: true, encoding:'utf-8') do |row|
+  Word.create( {
+    language_id: row[0], 
+    deck_id: row[1],
+    word_english: row[2], 
+    word_target_language: row[3],
+    pronunciation: row[4]
+  } )
+end
+
   ###German Seeds
 CSV.foreach(Rails.root.join('lib/seed_csv/german_seeds.csv'), headers: true, encoding:'utf-8') do |row|
   Word.create( {
@@ -132,6 +154,17 @@ end
 
   ###Persian Seeds
 CSV.foreach(Rails.root.join('lib/seed_csv/persian_seeds.csv'), headers: true, encoding:'utf-8') do |row|
+  Word.create( {
+    language_id: row[0], 
+    deck_id: row[1],
+    word_english: row[2], 
+    word_target_language: row[3],
+    pronunciation: row[4]
+  } ) 
+end
+
+  ###Spanish Seeds
+CSV.foreach(Rails.root.join('lib/seed_csv/spanish_seeds.csv'), headers: true, encoding:'utf-8') do |row|
   Word.create( {
     language_id: row[0], 
     deck_id: row[1],
