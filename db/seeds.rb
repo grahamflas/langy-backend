@@ -111,11 +111,11 @@ test_user = User.find_or_create_by(username: "user", password: "password")
   ###British English Seeds
 CSV.foreach(Rails.root.join('lib/seed_csv/british_english_seeds.csv'), headers: true, encoding:'utf-8') do |row|
   Word.create( {
-    language_id: row[0], 
-    deck_id: row[1],
-    word_english: row[2], 
-    word_target_language: row[3],
-    pronunciation: row[4]
+    language_id: row["language_id"], 
+    deck_id: row["deck_id"],
+    word_english: row["word_english"], 
+    word_target_language: row["word_target_language"],
+    pronunciation: row["pronunciation"]
   } )
 end
 
@@ -154,6 +154,7 @@ end
 
   ###Persian Seeds
 CSV.foreach(Rails.root.join('lib/seed_csv/persian_seeds.csv'), headers: true, encoding:'utf-8') do |row|
+  byebug
   Word.create( {
     language_id: row[0], 
     deck_id: row[1],

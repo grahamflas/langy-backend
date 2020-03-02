@@ -1,10 +1,12 @@
 class UsersController < ApplicationController
   def login
-    user = User.find_by(username: params[:username])
+    user = User.find_or_create_by(username: params[:username], password: params[:password])
 
-    if user && (user.password === params[:password])
-      render json: user
-    end
+    render json: user
+
+    # if user && (user.password === params[:password])
+    #   render json: user
+    # end
 
   end
 
